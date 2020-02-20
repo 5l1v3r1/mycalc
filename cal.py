@@ -37,7 +37,7 @@ print "pypi"
 print "pyhelp"
 
 
-choice = int(input("Choose a Number: 1-2-3-4-5-6-7: "))
+choice = input("Choose a Number: 1-2-3-4-5-6-7: ")
 num1 = int(input("\n put a number: "))
 num2 = int(input("\n put another number: "))
 
@@ -46,19 +46,19 @@ print("\n\n")
 if choice == pi:
     print " pi == 3.1415926535 8979323846 2643383279 5028841971 6939937510 5820974944 5923078164 0628620899 8628034825 3421170679 "
 
-elif choice == breakme:
+elif choice == 60:
     webbrowser.open("youtube.com")
 
-elif choice == netflix:
+elif choice == 70:
     webbrowser.open("netflix.com")
 
-elif choice == hulu:
+elif choice == 80:
     webbrowser.open("hulu.com")
 
-elif choice == pypi:
+elif choice == 90:
     webbrowser.open("pypi.org")
 
-elif choice == pyhelp:
+elif choice == 100:
     webbrowser.open("docs.python.com")
 
 elif choice == 0:
