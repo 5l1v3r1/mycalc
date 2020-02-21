@@ -30,11 +30,12 @@ print "4.divide"
 print "5.Remainder"
 print "6.Exponent"
 print "7.Floor Division"
-print "breakme"
-print "netflix"
-print "hulu"
-print "pypi"
-print "pyhelp"
+print "60.youtube"
+print "70.netflix"
+print "80.hulu"
+print "90.pypi"
+print "100.pyhelp"
+print "31.pi"
 
 
 choice = input("Choose a Number: 1-2-3-4-5-6-7: ")
@@ -43,7 +44,7 @@ num2 = int(input("\n put another number: "))
 
 print("\n\n")
 
-if choice == pi:
+if choice == 31:
     print " pi == 3.1415926535 8979323846 2643383279 5028841971 6939937510 5820974944 5923078164 0628620899 8628034825 3421170679 "
 
 elif choice == 60:
