@@ -36,6 +36,7 @@ print "80.hulu"
 print "90.pypi"
 print "100.pyhelp"
 print "31.pi"
+print "143.htb"
 
 
 choice = input("Choose a Number: 1-2-3-4-5-6-7: ")
@@ -46,6 +47,9 @@ print("\n\n")
 
 if choice == 31:
     print " pi == 3.1415926535 8979323846 2643383279 5028841971 6939937510 5820974944 5923078164 0628620899 8628034825 3421170679 "
+
+elif choice == 143:
+    webbrowser.open("hackthebox.eu")
 
 elif choice == 60:
     webbrowser.open("youtube.com")
