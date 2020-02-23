@@ -1,5 +1,11 @@
 # mycalc
+
 A calculator with things we need
-# put in terminal
-chmod +x cal.py;
-python2 cal.py
+
+# Installation
+
+`git clone https://github.com/iinc0gnit0/mycalc`
+
+# Usage
+
+`python3 cal.py`
